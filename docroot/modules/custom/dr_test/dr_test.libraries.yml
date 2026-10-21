@@ -1,0 +1,4 @@
+dr_test_styles:
+  css:
+    theme:
+      css/dr_test.css: {}

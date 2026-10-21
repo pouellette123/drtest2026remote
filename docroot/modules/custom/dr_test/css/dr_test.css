@@ -1,0 +1,33 @@
+/* Container holding the background image and counter text */
+.dr-test-container {
+  background-image: url('../images/Acquia_Seriously.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 800px;
+  height: 400px; /* Gives the image plenty of height so it doesn't look truncated */
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Pushes content to the bottom of the image frame */
+}
+
+/* Styling for the text box inside the image */
+.dr-test-container p {
+  background: rgba(0, 0, 0, 0.75); /* Dark semi-transparent background for high readability */
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-size: 1.25rem;
+  margin: 0;
+  width: fit-content;
+}
+
+/* Area outside/below the image for the button */
+.dr-test-actions {
+  text-align: left;
+  margin-top: 15px;
+}

@@ -1,0 +1,5 @@
+name: 'Classic DR and Fail Over Test'
+type: module
+description: 'Generates database activity for failover and load testing.'
+package: Custom
+core_version_requirement: ^11

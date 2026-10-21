@@ -1,0 +1,7 @@
+dr_test.content:
+  path: '/dr-test'
+  defaults:
+    _controller: '\Drupal\dr_test\Controller\DrTestController::content'
+    _title: 'Classic DR and Fail Over Test'
+  requirements:
+    _access: 'TRUE'
